@@ -68,8 +68,11 @@ class Double_linked_list
     while (nullptr != first_)
     {
       void *tmp{ first_->next_ };
-      first_->~Double_linked_node();
+
+      delete first_;
+
       first_ = { static_cast<Double_linked_node<val_type>*>(tmp) };
+
       size_--;
     }
 
@@ -597,6 +600,11 @@ class Hash_table
 
   virtual ~Hash_table()
   {
+    for (list_type *list : data_)
+    {
+      delete list;
+    }
+
     data_.clear();
     data_.shrink_to_fit();
   }
@@ -832,26 +840,30 @@ class Hash_table
 
 int main()
 {
-  Hash_table<uint32_t> ht;
+  do
+  {
+    Hash_table<uint32_t> ht;
 
-  ht.Add_val("John", 1);
-  ht.Add_val("Doe", 2);
-  ht.Add_val("Mary", 3);
-  ht.Add_val("Sue", 4);
+    ht.Add_val("John", 1);
+    ht.Add_val("Doe", 2);
+    ht.Add_val("Mary", 3);
+    ht.Add_val("Sue", 4);
 
-  ht.Print_all_values();
+    ht.Print_all_values();
 
-  cout << endl;
+    cout << endl;
 
-  ht.Add_val("John", 1);
-  ht.Add_val("Doe", 2);
+    ht.Add_val("John", 1);
+    ht.Add_val("Doe", 2);
 
-  ht.Delete_key("Andy");
-  ht.Delete_key("Mary");
+    ht.Delete_key("Andy");
+    ht.Delete_key("Mary");
 
-  ht.Print_all_values();
+    ht.Print_all_values();
 
-  cout << endl;
+    cout << endl;
+  }
+  while (false);
 
   cin.get();
 
