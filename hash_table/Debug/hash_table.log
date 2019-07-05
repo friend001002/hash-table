@@ -80,28 +80,28 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(834): warning C4820: 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>': '4' bytes padding added after base class 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(840): note: see reference to class template instantiation 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(834): warning C4820: 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>': '4' bytes padding added after data member '<alignment member>'
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(790): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(778): note: while compiling class template member function 'bool Hash_table<uint32_t>::Delete_key(const char *)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(859): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Delete_key(const char *)' being compiled
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(845): note: see reference to class template instantiation 'Hash_table<uint32_t>' being compiled
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(801): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(807): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(628): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(613): note: while compiling class template member function 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)'
-          with
-          [
-              val_type=uint32_t
-          ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(847): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)' being compiled
-          with
-          [
-              val_type=uint32_t
-          ]
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(794): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(782): note: while compiling class template member function 'bool Hash_table<uint32_t>::Delete_key(const char *)'
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(863): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Delete_key(const char *)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(849): note: see reference to class template instantiation 'Hash_table<uint32_t>' being compiled
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(805): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(811): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
 d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(632): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(643): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(645): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(617): note: while compiling class template member function 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)'
+          with
+          [
+              val_type=uint32_t
+          ]
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(851): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)' being compiled
+          with
+          [
+              val_type=uint32_t
+          ]
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(636): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(647): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
 d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(649): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(661): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(653): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(665): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\streambuf(710): warning C4820: 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>': '3' bytes padding added after data member 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Failed'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xlocnum(1623): note: see reference to class template instantiation 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xlocnum(1623): note: while compiling class template member function '_OutIt std::num_put<wchar_t,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,const void *) const'
@@ -207,7 +207,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(129): warning C4820: 'std::basic_istream<char,std::char_traits<char>>::sentry': '3' bytes padding added after data member 'std::basic_istream<char,std::char_traits<char>>::sentry::_Ok'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(378): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>::sentry' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(374): note: while compiling class template member function 'int std::basic_istream<char,std::char_traits<char>>::get(void)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(868): note: see reference to function template instantiation 'int std::basic_istream<char,std::char_traits<char>>::get(void)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(872): note: see reference to function template instantiation 'int std::basic_istream<char,std::char_traits<char>>::get(void)' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(773): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(394): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
 d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(63): warning C5038: data member 'Double_linked_list<std::pair<std::string,val_type>>::first_' will be initialized after data member 'Double_linked_list<std::pair<std::string,val_type>>::size_'
@@ -220,40 +220,40 @@ d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(63): wa
           [
               val_type=uint32_t
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(656): note: see reference to function template instantiation 'Double_linked_list<std::pair<std::string,val_type>>::Double_linked_list(void)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(660): note: see reference to function template instantiation 'Double_linked_list<std::pair<std::string,val_type>>::Double_linked_list(void)' being compiled
           with
           [
               val_type=uint32_t
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(799): note: see reference to class template instantiation 'Double_linked_list<std::pair<std::string,val_type>>' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(803): note: see reference to class template instantiation 'Double_linked_list<std::pair<std::string,val_type>>' being compiled
           with
           [
               val_type=uint32_t
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(778): note: while compiling class template member function 'bool Hash_table<uint32_t>::Delete_key(const char *)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(859): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Delete_key(const char *)' being compiled
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(683): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(673): note: while compiling class template member function 'bool Hash_table<uint32_t>::Get_value(const char *,val_type &)'
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(782): note: while compiling class template member function 'bool Hash_table<uint32_t>::Delete_key(const char *)'
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(863): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Delete_key(const char *)' being compiled
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(687): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(677): note: while compiling class template member function 'bool Hash_table<uint32_t>::Get_value(const char *,val_type &)'
           with
           [
               val_type=uint32_t
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(781): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Get_value(const char *,val_type &)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(785): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Get_value(const char *,val_type &)' being compiled
           with
           [
               val_type=uint32_t
           ]
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(692): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(707): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(696): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(711): warning C4244: 'argument': conversion from 'uint64_t' to 'const unsigned int', possible loss of data
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(161): warning C4820: 'std::basic_ostream<char,std::char_traits<char>>::sentry': '3' bytes padding added after data member 'std::basic_ostream<char,std::char_traits<char>>::sentry::_Ok'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(403): note: see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>::sentry' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(401): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(641): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(645): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(687): note: see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(413): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(333): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(321): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(750): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(754): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1504): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1497): note: while compiling class template member function 'void std::vector<Double_linked_list<std::pair<std::string,val_type>> *,std::allocator<_Ty>>::_Reallocate_exactly(const unsigned int)'
           with
@@ -267,7 +267,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               val_type=uint32_t,
               _Ty=Double_linked_list<std::pair<std::string,uint32_t>> *
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(838): note: see reference to class template instantiation 'std::vector<Double_linked_list<std::pair<std::string,val_type>> *,std::allocator<_Ty>>' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(842): note: see reference to class template instantiation 'std::vector<Double_linked_list<std::pair<std::string,val_type>> *,std::allocator<_Ty>>' being compiled
           with
           [
               val_type=uint32_t,
@@ -275,10 +275,10 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
           ]
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(493): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(481): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(224): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(228): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(313): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(296): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(342): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(346): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(154): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(132): note: while compiling class template member function 'bool std::basic_istream<char,std::char_traits<char>>::_Ipfx(bool)'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(116): note: see reference to function template instantiation 'bool std::basic_istream<char,std::char_traits<char>>::_Ipfx(bool)' being compiled
@@ -308,11 +308,11 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(544): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(544): note: consider using constexpr specifier for named string literals
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(864): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(750): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)' being compiled
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(743): note: while compiling class template member function 'void Hash_table<uint32_t>::Print_all_values(bool)'
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(852): note: see reference to function template instantiation 'void Hash_table<uint32_t>::Print_all_values(bool)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(754): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(747): note: while compiling class template member function 'void Hash_table<uint32_t>::Print_all_values(bool)'
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(856): note: see reference to function template instantiation 'void Hash_table<uint32_t>::Print_all_values(bool)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(826): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(783): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(787): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(974): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): note: see reference to function template instantiation 'Double_linked_list<std::pair<std::string,val_type>> **std::vector<Double_linked_list<std::pair<std::string,val_type>> *,std::allocator<_Ty>>::_Emplace_reallocate<_Ty>(Double_linked_list<std::pair<std::string,val_type>> **const ,_Ty &&)' being compiled
           with
@@ -338,7 +338,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               val_type=uint32_t,
               _Ty=Double_linked_list<std::pair<std::string,uint32_t>> *
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(622): note: see reference to function template instantiation 'void std::vector<Double_linked_list<std::pair<std::string,val_type>> *,std::allocator<_Ty>>::push_back(_Ty &&)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(626): note: see reference to function template instantiation 'void std::vector<Double_linked_list<std::pair<std::string,val_type>> *,std::allocator<_Ty>>::push_back(_Ty &&)' being compiled
           with
           [
               val_type=uint32_t,
@@ -366,13 +366,13 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
               _Elem=char,
               _SizeT=unsigned int
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(636): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(613): note: while compiling class template member function 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)'
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(640): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(617): note: while compiling class template member function 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)'
           with
           [
               val_type=uint32_t
           ]
-  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(847): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)' being compiled
+  d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(851): note: see reference to function template instantiation 'bool Hash_table<uint32_t>::Add_val(std::string,val_type)' being compiled
           with
           [
               val_type=uint32_t
@@ -1141,5 +1141,5 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(650): warning C4514: 'std::literals::string_literals::operator ""s': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(655): warning C4514: 'std::literals::string_literals::operator ""s': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(660): warning C4514: 'std::literals::string_literals::operator ""s': unreferenced inline function has been removed
-d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(817): warning C4715: 'Hash_table<unsigned int>::Delete_key': not all control paths return a value
+d:\visual_studio_projects\c++\study\hash_table\hash_table\hash_table.cpp(821): warning C4715: 'Hash_table<unsigned int>::Delete_key': not all control paths return a value
   hash_table.vcxproj -> D:\Visual_Studio_Projects\C++\Study\hash_table\Debug\hash_table.exe
